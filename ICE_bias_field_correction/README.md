@@ -1,4 +1,4 @@
-Microsoft's Image Composite Editor (ICE) is sensitive to any tilt in the illumination of the image. This code corrects for any bias field (intensity inhomogeneity) triggered by vignetting and created by ICE in the final stitched mosaic. Briefly, what this code does is:
+Microsoft's Image Composite Editor (ICE) is sensitive to any tilt in the illumination of the tiles. This code corrects for any bias field (intensity inhomogeneity) triggered by vignetting and created by ICE in the final stitched mosaic. Briefly, what this code does is:
 
 1)  Sum all tiles in the mosaic
 2)  Low pass filter
